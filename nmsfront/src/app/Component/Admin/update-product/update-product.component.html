@@ -1,0 +1,118 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6 mx-auto mt-3 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="text-center">Update Movie</h4>
+                </div>
+                <div class="card-body">
+                    <form #registerationForm="ngForm" (ngSubmit)="updateProduct()">
+
+                        <div class="form-group">
+                            <label for="mname">Movie Name:</label>
+                            <input type="text" class="form-control" required #mname="ngModel"
+                                placeholder="Enter movie name" id="mname" name="name" [(ngModel)]="product.name"
+                                ngModel>
+                            <span *ngIf="mname.invalid && mname.touched" style="color: red">Please enter a valid
+                                Mvoie name.</span>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="mctg">TheaterName:</label>
+                            <input type="text" class="form-control" required #mctg="ngModel"
+                                placeholder="Enter theatername " id="mctg" name="category"
+                                [(ngModel)]="product.theatername" ngModel>
+                            <span *ngIf="mctg.invalid && mctg.touched" style="color:red">Please enter a valid
+                                 theatername.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="mctg">Movie Genre:</label>
+                            <input type="text" class="form-control" required #mctg="ngModel"
+                                placeholder="Enter movie genre" id="mctg" name="category"
+                                [(ngModel)]="product.category" ngModel>
+                            <span *ngIf="mctg.invalid && mctg.touched" style="color:red">Please enter a valid
+                                movie genre.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="desc">Movie Description:</label>
+                            <input type="text" class="form-control" required #desc="ngModel"
+                                placeholder="Enter movie description" id="desc" name="description"
+                                [(ngModel)]="product.description" ngModel>
+                            <span *ngIf="desc.invalid && desc.touched" style="color:red">Please enter a valid
+                            Movie description.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="mctg">Showtimings:</label>
+                            <input type="text" class="form-control" required #mctg="ngModel"
+                                placeholder="Enter Showtimings" id="mctg" name="category"
+                                [(ngModel)]="product.category" ngModel>
+                            <span *ngIf="mctg.invalid && mctg.touched" style="color:red">Please enter a valid
+                                Showtimings.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="stk">Total tickets Available (In Strip):</label>
+                            <input type="number" required #stk="ngModel" class="form-control"
+                                placeholder="Enter total tickets" id="stk" name="totalAvailable"
+                                [(ngModel)]="product.totalAvailable" ngModel>
+                            <span *ngIf="stk.invalid && stk.touched" style="color: red">Please enter a valid
+                                total stock.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pc">Ticket Price:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">&#8377;</span>
+                                </div>
+                                <input type="number" required #pc="ngModel" class="form-control"
+                                    placeholder="Enter  Ticket  price" id="pc" name="price"
+                                    [(ngModel)]="product.price" ngModel>
+                            </div>
+                            <span *ngIf="pc.invalid && pc.touched" style="color: red">Please enter a valid
+                               Ticket price.</span>
+                        </div>
+
+                        <hr>
+                        <div class="text-center">
+                            <button type="submit" name="update" class="btn btn-primary" [disabled]="registerationForm.invalid"
+                                data-toggle="modal" data-target="#myModal">Update Movie</button>
+                            <!-- The Modal -->
+                            <div class="modal fade" id="myModal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Update a Movie</h4>
+                                            <button type="button" class="close" (click)="onClick()"
+                                                data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <span *ngIf="isValid" style="color:green">{{message}}</span>
+                                            <span *ngIf="!isValid" style="color: red">{{message}}</span>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" name="close" class="btn btn-secondary" data-dismiss="modal"
+                                                (click)="onClick()">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>

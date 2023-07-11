@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T09:22:40 GMT-07:00" name="Suite" finished-at="2023-07-07T09:24:36 GMT-07:00" duration-ms="116696">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T09:22:40 GMT-07:00" name="Logintest" finished-at="2023-07-07T09:22:52 GMT-07:00" duration-ms="12186">
+      <class name="testing.loginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.loginTest@10959ece]" started-at="2023-07-07T09:22:40 GMT-07:00" name="setUp" finished-at="2023-07-07T09:22:49 GMT-07:00" duration-ms="9437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginadminr()[pri:0, instance:testing.loginTest@10959ece]" started-at="2023-07-07T09:22:49 GMT-07:00" name="loginadminr" finished-at="2023-07-07T09:22:51 GMT-07:00" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginadminr -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.loginTest@10959ece]" started-at="2023-07-07T09:22:51 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:22:52 GMT-07:00" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.loginTest -->
+    </test> <!-- Logintest -->
+    <test started-at="2023-07-07T09:22:52 GMT-07:00" name="Register" finished-at="2023-07-07T09:23:06 GMT-07:00" duration-ms="13883">
+      <class name="testing.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.RegistrationTest@4e096385]" started-at="2023-07-07T09:22:52 GMT-07:00" name="setUp" finished-at="2023-07-07T09:23:00 GMT-07:00" duration-ms="7557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Usersignup()[pri:0, instance:testing.RegistrationTest@4e096385]" started-at="2023-07-07T09:23:00 GMT-07:00" name="Usersignup" finished-at="2023-07-07T09:23:05 GMT-07:00" duration-ms="5869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Usersignup -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.RegistrationTest@4e096385]" started-at="2023-07-07T09:23:05 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:23:06 GMT-07:00" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.RegistrationTest -->
+    </test> <!-- Register -->
+    <test started-at="2023-07-07T09:23:06 GMT-07:00" name="AddMovie" finished-at="2023-07-07T09:23:23 GMT-07:00" duration-ms="16965">
+      <class name="testing.AddMovie">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.AddMovie@306f16f3]" started-at="2023-07-07T09:23:06 GMT-07:00" name="setUp" finished-at="2023-07-07T09:23:14 GMT-07:00" duration-ms="7930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addmovie()[pri:0, instance:testing.AddMovie@306f16f3]" started-at="2023-07-07T09:23:14 GMT-07:00" name="addmovie" finished-at="2023-07-07T09:23:23 GMT-07:00" duration-ms="8898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addmovie -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.AddMovie@306f16f3]" started-at="2023-07-07T09:23:23 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:23:23 GMT-07:00" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.AddMovie -->
+    </test> <!-- AddMovie -->
+    <test started-at="2023-07-07T09:23:23 GMT-07:00" name="showupdate" finished-at="2023-07-07T09:23:40 GMT-07:00" duration-ms="17268">
+      <class name="testing.ShowUpdateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.ShowUpdateTest@247d8ae]" started-at="2023-07-07T09:23:23 GMT-07:00" name="setUp" finished-at="2023-07-07T09:23:31 GMT-07:00" duration-ms="8161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ShowUpdate()[pri:0, instance:testing.ShowUpdateTest@247d8ae]" started-at="2023-07-07T09:23:31 GMT-07:00" name="ShowUpdate" finished-at="2023-07-07T09:23:40 GMT-07:00" duration-ms="8768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowUpdate -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.ShowUpdateTest@247d8ae]" started-at="2023-07-07T09:23:40 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:23:40 GMT-07:00" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.ShowUpdateTest -->
+    </test> <!-- showupdate -->
+    <test started-at="2023-07-07T09:23:40 GMT-07:00" name="useroperations" finished-at="2023-07-07T09:24:01 GMT-07:00" duration-ms="20849">
+      <class name="testing.userOperationsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.userOperationsTest@57af006c]" started-at="2023-07-07T09:23:40 GMT-07:00" name="setUp" finished-at="2023-07-07T09:23:48 GMT-07:00" duration-ms="7639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="useroperations()[pri:0, instance:testing.userOperationsTest@57af006c]" started-at="2023-07-07T09:23:48 GMT-07:00" name="useroperations" finished-at="2023-07-07T09:24:01 GMT-07:00" duration-ms="13039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useroperations -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.userOperationsTest@57af006c]" started-at="2023-07-07T09:24:01 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:24:01 GMT-07:00" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.userOperationsTest -->
+    </test> <!-- useroperations -->
+    <test started-at="2023-07-07T09:24:01 GMT-07:00" name="userorders" finished-at="2023-07-07T09:24:12 GMT-07:00" duration-ms="10496">
+      <class name="testing.UserOrdersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.UserOrdersTest@69997e9d]" started-at="2023-07-07T09:24:01 GMT-07:00" name="setUp" finished-at="2023-07-07T09:24:08 GMT-07:00" duration-ms="6821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userOrders()[pri:0, instance:testing.UserOrdersTest@69997e9d]" started-at="2023-07-07T09:24:08 GMT-07:00" name="userOrders" finished-at="2023-07-07T09:24:11 GMT-07:00" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userOrders -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.UserOrdersTest@69997e9d]" started-at="2023-07-07T09:24:11 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:24:12 GMT-07:00" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.UserOrdersTest -->
+    </test> <!-- userorders -->
+    <test started-at="2023-07-07T09:24:12 GMT-07:00" name="Adminorders" finished-at="2023-07-07T09:24:24 GMT-07:00" duration-ms="12742">
+      <class name="testing.AdminOrdersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.AdminOrdersTest@6babf3bf]" started-at="2023-07-07T09:24:12 GMT-07:00" name="setUp" finished-at="2023-07-07T09:24:20 GMT-07:00" duration-ms="8477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Adminorders()[pri:0, instance:testing.AdminOrdersTest@6babf3bf]" started-at="2023-07-07T09:24:20 GMT-07:00" name="Adminorders" finished-at="2023-07-07T09:24:24 GMT-07:00" duration-ms="4025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adminorders -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.AdminOrdersTest@6babf3bf]" started-at="2023-07-07T09:24:24 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:24:24 GMT-07:00" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.AdminOrdersTest -->
+    </test> <!-- Adminorders -->
+    <test started-at="2023-07-07T09:24:24 GMT-07:00" name="Deletemovie" finished-at="2023-07-07T09:24:36 GMT-07:00" duration-ms="12009">
+      <class name="testing.DeleteMovie">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.DeleteMovie@6f46426d]" started-at="2023-07-07T09:24:24 GMT-07:00" name="setUp" finished-at="2023-07-07T09:24:30 GMT-07:00" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Delete()[pri:0, instance:testing.DeleteMovie@6f46426d]" started-at="2023-07-07T09:24:30 GMT-07:00" name="Delete" finished-at="2023-07-07T09:24:36 GMT-07:00" duration-ms="6606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testing.DeleteMovie@6f46426d]" started-at="2023-07-07T09:24:36 GMT-07:00" name="cleanUp" finished-at="2023-07-07T09:24:36 GMT-07:00" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testing.DeleteMovie -->
+    </test> <!-- Deletemovie -->
+  </suite> <!-- Suite -->
+</testng-results>

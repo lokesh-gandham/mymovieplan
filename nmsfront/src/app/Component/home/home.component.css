@@ -1,0 +1,23 @@
+.carousel-inner img {
+    width: 640px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-group-text img {
+    width: 30px;
+    height: 30px;
+}
+h3,h6{
+    color:crimson;
+} 
+h4,p{
+    color:white;
+}
+
+
+  
+  
